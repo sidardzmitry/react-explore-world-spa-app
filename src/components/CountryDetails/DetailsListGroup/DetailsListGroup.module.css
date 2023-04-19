@@ -1,0 +1,21 @@
+.details__group{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.details__list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.details__list:not(:last-child) {
+    margin-right: 50px;
+}
+.details__item{
+    width: 100%;
+    word-break: break-word;
+}

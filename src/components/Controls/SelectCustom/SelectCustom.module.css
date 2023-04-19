@@ -1,0 +1,13 @@
+.select {
+    width: 200px;
+    box-shadow: var(--shadow);
+    border: none;
+    border-radius: var(--bradius);
+    font-family: var(--family);
+}
+.select > div[id] {
+    background-color: var(--color-ui);
+}
+.select * {
+    color: var(--color-text) !important;
+}

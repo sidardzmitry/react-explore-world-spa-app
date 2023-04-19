@@ -1,0 +1,22 @@
+.error{
+    dispay:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--shadow);
+    background-color: var(--color-bg);
+    border-radius: var(--bradius);
+    width: 30%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.error__message{
+    text-align: center;
+    color: var(----color-text);
+    font-weight: var(--fw-normal);
+}
+
+@media(max-width: 767px) {
+    .error{
+        width: 100%;
+    }
+}

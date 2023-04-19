@@ -1,0 +1,13 @@
+.button{
+    background-color: var(--color-ui);
+    color: var(--color-text);
+    padding: 0.5rem 1rem;
+    box-shadow: var(--shadow);
+    border-radius: var(--bradius);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}

@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import-nozmalize;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+* {
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+:root {
+    --family: 'Nunito Sans', sans-serif;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fw-light: 300;
+    --fw-normal: 600;
+    --fw-bold: 800;
+
+    --bradius: 4px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body[data-theme='dark']{
+    --color-text: hsl(0, 0%, 100%);
+    --color-bg: hsl(207, 26%, 17%);
+    --color-ui: hsl(209, 23%, 22%);
+
+    --shadow: rgba(245, 245, 245, 0.2) 0px 0px 8px;
+}
+body[data-theme='light']{
+    --color-text: hsl(200, 15%, 8%);
+    --color-bg: hsl(0, 0%, 98%);
+    --color-ui: hsl(0, 0%, 100%);
+
+    --shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+body {
+    font-family: var(--family);
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    font-weight: var(--fw-light);
+}
+.container{
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+ul,li{
+    padding: 0;
+    margin: 0;
+}
+.not__page{
+    dispay:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--shadow);
+    background-color: var(--color-bg);
+    border-radius: var(--bradius);
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.not__page-message{
+    text-align: center;
+    color: var(----color-text);
+    font-weight: var(--fw-normal);
+}
+@media(max-width: 767px) {
+    .not__page {
+        width: 100%;
+    }
 }
