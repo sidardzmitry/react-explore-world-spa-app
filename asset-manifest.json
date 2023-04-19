@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-explore-world-spa-app/static/css/main.b0699d51.css",
+    "main.js": "/react-explore-world-spa-app/static/js/main.1f059b6e.js",
+    "index.html": "/react-explore-world-spa-app/index.html",
+    "main.b0699d51.css.map": "/react-explore-world-spa-app/static/css/main.b0699d51.css.map",
+    "main.1f059b6e.js.map": "/react-explore-world-spa-app/static/js/main.1f059b6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0699d51.css",
+    "static/js/main.1f059b6e.js"
+  ]
+}
