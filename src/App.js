@@ -13,7 +13,7 @@ function App() {
   const [country, setCountry] = useState([]);
 
   return (
-    <Router>
+    <Router basename="/react-explore-world-spa-app">
       <Header />
       <Main>
           <Routes>
